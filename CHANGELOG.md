@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.0-beta.2 - 2026-08-30
+
+- Marked only this fish pack for selective ServerPackOverlay priority so FishOnMC's custom HUD remains
+  above unmarked local packs such as Faithful.
+- Replaced the broad Serverpack Priority recommendation with HUD-safe multiplayer setup and recovery steps.
+
 ## 3.0.0-beta.1 - 2026-08-30
 
 - Published the fish-only edition of Rustic Fantasy 128.

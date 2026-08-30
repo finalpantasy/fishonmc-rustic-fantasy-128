@@ -39,7 +39,7 @@ replacement mockups.
 1. Download the release ZIP.
 2. Put the ZIP in the selected Minecraft instance's `resourcepacks` directory.
 3. Open Minecraft's Resource Packs screen and enable **Rustic Fantasy 128 — Fish Only**.
-4. Keep it above the official FishOnMC/repaired texture pack in the priority list.
+4. For single-player testing, keep it above any locally installed FishOnMC/repaired pack.
 5. Reload resources or restart Minecraft.
 
 If default fish sprites still appear, confirm this pack is at the highest applicable priority. The pack
@@ -57,15 +57,31 @@ The three projects work independently and are designed to complement one another
 
 ## Multiplayer pack priority
 
-Vanilla Minecraft places the server resource pack above local resource packs. For FishOnMC multiplayer,
-install [Serverpack Priority](https://modrinth.com/mod/serverpack-priority) version 1.0.2 for Minecraft
-1.21.11. It places enabled local packs above the server pack while keeping the server pack above vanilla:
+Vanilla Minecraft pins the server resource pack above local resource packs. For FishOnMC multiplayer,
+install [ServerPackOverlay](https://modrinth.com/mod/serverpackoverlay) 1.0 for Fabric and Minecraft
+1.21.11. This release is already marked for that mod, so it promotes **only this fish pack** above the
+pinned server pack whenever you connect:
 
-`Rustic Fantasy fish textures → official FishOnMC server pack → vanilla Minecraft`
+`Rustic Fantasy fish textures → FishOnMC server packs → unmarked local packs → vanilla Minecraft`
 
 Resource packs are resolved one asset path at a time. This fish-only pack overrides matching fish paths;
 anything it does not contain still falls through to FishOnMC's official server pack. It does not make
 unreplaced rods, UI, armor, blocks, or items revert to vanilla.
+
+Do **not** use the broad `Serverpack Priority` mod with this setup. That mod lowers the server pack beneath
+every enabled local pack. Packs such as Faithful can then restore their vanilla hearts, armor, and hunger
+sprites over FishOnMC's custom HUD—the exact overlay this selective setup prevents.
+
+### Fix hearts, armor, or hunger appearing over the FishOnMC HUD
+
+1. Close Minecraft completely.
+2. Remove or disable `serverpack-priority-*.jar` in the instance's `mods` directory.
+3. Install [ServerPackOverlay 1.0](https://modrinth.com/mod/serverpackoverlay) instead.
+4. Replace any older Rustic Fantasy ZIP with the current release; the current `pack.mcmeta` starts with the
+   required hidden `§kSPO§r` marker.
+5. Enable the fish pack, restart Minecraft, and reconnect. ServerPackOverlay promotes the marked fish pack
+   automatically while leaving FishOnMC's server packs above Faithful, dark-mode packs, PBR packs, and other
+   unmarked local packs.
 
 ## Scope and provenance
 
