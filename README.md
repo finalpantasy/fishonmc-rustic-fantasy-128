@@ -45,15 +45,27 @@ replacement mockups.
 If default fish sprites still appear, confirm this pack is at the highest applicable priority. The pack
 expects FishOnMC's normal item-model routing and replaces only the textures those routes select.
 
-## Complementary true-size mod
+## FishOn visual suite
 
-This pack is designed to complement
-[FishOn Fish Scale](https://github.com/finalpantasy/fishon-fish-scale), an optional client-only Fabric mod
-that renders caught fish at their recorded physical length while preserving normal inventory icon size.
+The three projects work independently and are designed to complement one another:
 
-- The texture pack improves how the fish look.
-- FishOn Fish Scale changes only their client-side world-render size.
-- Either project works independently; using both provides the intended visual experience.
+- **Rustic Fantasy 128 — Fish Only** replaces the fish artwork.
+- [FishOn Fish Scale](https://github.com/finalpantasy/fishon-fish-scale)
+  renders dropped catches at their recorded physical length.
+- [FishOn Standing Camera](https://github.com/finalpantasy/fishon-standing-camera)
+  keeps the first-person view upright while using Sneak for fishing tension.
+
+## Multiplayer pack priority
+
+Vanilla Minecraft places the server resource pack above local resource packs. For FishOnMC multiplayer,
+install [Serverpack Priority](https://modrinth.com/mod/serverpack-priority) version 1.0.2 for Minecraft
+1.21.11. It places enabled local packs above the server pack while keeping the server pack above vanilla:
+
+`Rustic Fantasy fish textures → official FishOnMC server pack → vanilla Minecraft`
+
+Resource packs are resolved one asset path at a time. This fish-only pack overrides matching fish paths;
+anything it does not contain still falls through to FishOnMC's official server pack. It does not make
+unreplaced rods, UI, armor, blocks, or items revert to vanilla.
 
 ## Scope and provenance
 
