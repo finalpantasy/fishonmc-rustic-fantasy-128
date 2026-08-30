@@ -16,6 +16,24 @@ This project is not affiliated with or endorsed by FishOnMC, Mojang, or Microsof
 The textures use a semi-realistic Rustic Fantasy direction while retaining hard pixel edges, readable
 silhouettes, transparent backgrounds, and Minecraft-compatible presentation.
 
+## Texture preview
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/minecraft/textures/item/fish/normal/bluegill.png" width="128" height="128" alt="Bluegill"><br><sub><b>Bluegill</b> · Normal</sub></td>
+    <td align="center"><img src="assets/minecraft/textures/item/fish/normal/arapaima.png" width="128" height="128" alt="Arapaima"><br><sub><b>Arapaima</b> · Normal</sub></td>
+    <td align="center"><img src="assets/minecraft/textures/item/fish/normal/greenlandshark.png" width="128" height="128" alt="Greenland Shark"><br><sub><b>Greenland Shark</b> · Normal</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/minecraft/textures/item/fish/normal/showakoi.png" width="128" height="128" alt="Showa Koi"><br><sub><b>Showa Koi</b> · Normal</sub></td>
+    <td align="center"><img src="assets/minecraft/textures/item/fish/fabled/commonremora.png" width="128" height="128" alt="Common Remora"><br><sub><b>Common Remora</b> · Fabled</sub></td>
+    <td align="center"><img src="assets/minecraft/textures/item/fish/albino/alligatorgar.png" width="128" height="128" alt="Alligator Gar"><br><sub><b>Alligator Gar</b> · Albino</sub></td>
+  </tr>
+</table>
+
+These are the actual transparent 128×128 files shipped in the pack, displayed without smoothing or
+replacement mockups.
+
 ## Installation
 
 1. Download the release ZIP.
