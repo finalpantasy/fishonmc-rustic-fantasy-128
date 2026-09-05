@@ -1,20 +1,43 @@
-# FishOnMC Rustic Fantasy 128 — Fish Only
+# FishOnMC Rustic Fantasy — Fish Only
 
-An unofficial 128px replacement texture pack for FishOnMC fish. It contains fish artwork only: no rods,
-reels, lines, bait, armor, menus, cosmetics, or other item replacements.
+An unofficial fish-only replacement texture pack for FishOnMC, available in 128px and experimental
+512px editions. It contains fish artwork only: no rods, reels, lines, bait, armor, menus, cosmetics, or
+other item replacements.
 
 This project is not affiliated with or endorsed by FishOnMC, Mojang, or Microsoft.
 
 ## Contents
 
-- 3,471 fish textures;
-- 347 fish identifiers;
+- 3,701 fish textures per resolution;
+- 370 fish identifiers;
 - normal, albino, alternate, fabled, frozen, locked, melanistic, spooky, trophy, and zombie folders;
 - two small generated-item model definitions repairing missing Fabled Common Remora and Meanmouth Bass
   routes in the compatible official-pack snapshot.
 
 The textures use a semi-realistic Rustic Fantasy direction while retaining hard pixel edges, readable
 silhouettes, transparent backgrounds, and Minecraft-compatible presentation.
+
+## Nile River preview
+
+Version 3.1.0-nile-preview adds 23 newly released Nile River catches in all ten variants—230 new
+textures per resolution:
+
+Aba, African Arowana, African Butter Catfish, African Carp, African Sharptooth Catfish, Assuan Labeo,
+Bebe Mormyrid, Blue Tilapia, Electric Catfish, Elephant Snout, Elongate Tigerfish, Giraffe Catfish,
+Mango Tilapia, Marbled Lungfish, Nile Barb, Nile Bichir, Nile Crocodile, Nile Perch, Nile Tilapia,
+Obscure Snakehead, Redbelly Tilapia, True Bigscale Tetra, and Vundu.
+
+![All 23 Nile River normal textures in the 512px edition](previews/nile-2026-09-05-512.png)
+
+The release provides two downloads:
+
+| Edition | Recommended for | Notes |
+| --- | --- | --- |
+| **128px** | Normal play | The recommended Minecraft-scale edition and the source tracked in this repository. |
+| **512px** | Maximum-detail testing | Experimental, much larger download and heavier resource use. |
+
+Enable only one resolution at a time. Both archives contain the same 370 identifiers and ten variant
+folders.
 
 ## Texture preview
 
@@ -31,14 +54,13 @@ silhouettes, transparent backgrounds, and Minecraft-compatible presentation.
   </tr>
 </table>
 
-These are the actual transparent 128×128 files shipped in the pack, displayed without smoothing or
-replacement mockups.
+These are actual transparent files shipped in the pack, displayed without replacement mockups.
 
 ## Installation
 
-1. Download the release ZIP.
+1. Download either the 128px or 512px release ZIP. The 128px edition is recommended.
 2. Put the ZIP in the selected Minecraft instance's `resourcepacks` directory.
-3. Open Minecraft's Resource Packs screen and enable **Rustic Fantasy 128 — Fish Only**.
+3. Open Minecraft's Resource Packs screen and enable the chosen **Rustic Fantasy — Fish Only** pack.
 4. For single-player testing, keep it above any locally installed FishOnMC/repaired pack.
 5. Reload resources or restart Minecraft.
 
@@ -95,10 +117,11 @@ artwork and compatibility notice.
 
 ## Development disclosure
 
-`finalpantasy` directed the art style, selected and rejected generations, corrected transparency,
-specified orientation and inventory fill, tested the textures in Minecraft, and approved the release.
-OpenAI image and coding tools were used extensively to assist with image generation, processing,
-documentation, and validation. The artwork is therefore shared on GitHub rather than Modrinth.
+The project maintainer directed the art style, selected and rejected generations, corrected
+transparency, specified orientation and inventory fill, tested the textures in Minecraft, and approved
+the release. OpenAI image and coding tools were used extensively to assist with image generation,
+processing, documentation, and validation. The artwork is therefore shared on GitHub rather than
+Modrinth.
 
 ## License
 
