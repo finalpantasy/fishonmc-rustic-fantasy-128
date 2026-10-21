@@ -1,5 +1,7 @@
 # FishOnMC Rustic Fantasy — Fish Only
 
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-buy%20me%20a%20coffee-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/finalpantasy)
+
 An unofficial fish-only replacement texture pack for FishOnMC, available in 128px and experimental
 512px editions. It contains fish artwork only: no rods, reels, lines, bait, armor, menus, cosmetics, or
 other item replacements.
@@ -127,3 +129,7 @@ Modrinth.
 
 The replacement artwork is shared under the terms in [LICENSE.md](LICENSE.md). FishOnMC names, marks,
 game content, and underlying designs remain the property of their respective owners.
+
+## Support
+
+Free hobby project. If it helps you, you can [buy me a coffee on Ko-fi](https://ko-fi.com/finalpantasy). Thank you!
